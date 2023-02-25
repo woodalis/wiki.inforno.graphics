@@ -2,7 +2,7 @@
 const { frontmatter } = Astro.props
 ---
 <!DOCTYPE html>
-<html lang="en_GB">
+<html lang="en-GB">
     <head>
         <meta charset="utf-8" />
         <title>{frontmatter.title} - {new URL(import.meta.env.SITE).host}</title>
@@ -22,7 +22,7 @@ const { frontmatter } = Astro.props
             {frontmatter.description && <p class="description">{frontmatter.description}</p>}
             <hr />
         </header>
-        <article lang={frontmatter.language ? frontmatter.language : "en_GB"}>
+        <article lang={frontmatter.language ? frontmatter.language : "en-GB"}>
             <slot />
         </article>
     </body>
