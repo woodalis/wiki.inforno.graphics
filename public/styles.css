@@ -54,3 +54,16 @@ a:active {
 .description {
     font-style: italic;
 }
+
+hr {
+    border: none;
+}
+
+hr::after {
+    content: "⁂";
+    font-family: 'Inknut Antiqua', serif;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    display: block;
+}
