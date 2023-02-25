@@ -4,7 +4,7 @@ const articles = await Astro.glob("../pages/**")
 <section id="sitemap">
     <h2>sitemap</h2>
     <ul>
-        {articles.map(article => <li><a href={article.url}>{article.frontmatter.title}</a>
+        {articles.map(article => <li><a href={article.url ? article.url : "/"}>{article.frontmatter.title}</a>
             {article.frontmatter.description && <span class="description">{article.frontmatter.description}</span>}</li>)}
     </ul>
 </section>
