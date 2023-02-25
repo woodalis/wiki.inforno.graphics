@@ -1,0 +1,29 @@
+---
+const { frontmatter } = Astro.props
+---
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>{frontmatter.title} - {new URL(import.meta.env.SITE).host}</title>
+        {frontmatter.description && <meta name="description" content={frontmatter.description} />}
+        <link rel="stylesheet" href="styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="/">index</a></li>
+                <li><a href="https://github.com/woodalis/wiki.inforno.graphics">source</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1>{frontmatter.title}</h1>
+            {frontmatter.description && <p class="description">{frontmatter.description}</p>}
+            <hr />
+        </header>
+        <article>
+            <slot />
+        </article>
+    </body>
+</html>
