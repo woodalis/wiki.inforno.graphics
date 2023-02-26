@@ -6,7 +6,7 @@ html {
 
 body {
     font-family: 'IBM Plex Sans', sans-serif;
-    margin: 0 auto;
+    margin: 0 auto 8rem auto;
     max-width: 50rem;
     /* The following is based on https://www.w3.org/TR/WCAG21/#text-spacing */
     line-height: 1.5rem;
@@ -76,4 +76,20 @@ hr::after {
 ::selection {
     background: #000000;
     color: #FFFFFF;
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        background: #121212;
+        color: #FFFFFF;
+    }
+
+    hr::after {
+        color: #FFFFFF;
+    }
+
+    ::selection {
+        background: #FFFFFF;
+        color: #121212;
+    }
 }

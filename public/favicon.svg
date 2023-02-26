@@ -3,37 +3,23 @@
    version="1.1"
    viewBox="-10 0 1156 1156"
    id="svg12"
-   sodipodi:docname="favicon.svg"
    width="1156"
    height="1156"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns="http://www.w3.org/2000/svg">
+   <style>
+   path {
+      fill: #000000;
+   }
+
+   @media (prefers-color-scheme: dark) {
+      path {
+         fill: #FFFFFF;
+      }
+   }
+   </style>
   <defs
      id="defs16" />
-  <sodipodi:namedview
-     id="namedview14"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     showgrid="false"
-     inkscape:zoom="0.413"
-     inkscape:cx="9.68523"
-     inkscape:cy="623.48668"
-     inkscape:window-width="1920"
-     inkscape:window-height="1013"
-     inkscape:window-x="-9"
-     inkscape:window-y="29"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg12" />
   <path
-     fill="currentColor"
      d="m 816.50001,474.99998 h -81.00002 l -27,-51 -108,-29 68,190 -78,551.00002 -23,20 -23,-20 -73,-470.00002 66,-266 -152,69 -128,-51 61,-140 h 81 l 27,50 112,30 -38,-183 -60,-29 V 64.999989 l 171,-64.999999625 44,131.999990625 -54,218 148,-68 129.00002,53 z"
      id="path10" />
 </svg>
