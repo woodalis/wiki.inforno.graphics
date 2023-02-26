@@ -7,7 +7,7 @@ const { frontmatter } = Astro.props
         <meta charset="utf-8" />
         <title>{frontmatter.title} - {new URL(import.meta.env.SITE).host}</title>
         {frontmatter.description && <meta name="description" content={frontmatter.description} />}
-        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="/styles.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
     <body>
