@@ -5,6 +5,8 @@ const { frontmatter } = Astro.props
 <html lang="en-GB">
     <head>
         <meta charset="utf-8" />
+        <link rel="icon" href="/favicon.ico" sizes="any">
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <title>{frontmatter.title} - {new URL(import.meta.env.SITE).host}</title>
         {frontmatter.description && <meta name="description" content={frontmatter.description} />}
         <link rel="stylesheet" href="/styles.css" />
@@ -13,6 +15,7 @@ const { frontmatter } = Astro.props
     <body>
         <nav>
             <ul>
+                <li id="icon">†</li>
                 <li><a href="/">index</a></li>
                 <li><a href="https://github.com/woodalis/wiki.inforno.graphics">source</a></li>
             </ul>

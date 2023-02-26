@@ -67,3 +67,13 @@ hr::after {
     text-align: center;
     display: block;
 }
+
+#icon {
+    font-family: 'Inknut Antiqua', serif;
+    font-weight: bold;
+}
+
+::selection {
+    background: #000000;
+    color: #FFFFFF;
+}
