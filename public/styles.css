@@ -17,12 +17,16 @@
 :root {
     --foreground: #000000;
     --background: #FFFFFF;
+    --unvisited: #0061E0;
+    --visited: #b5007f;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
         --foreground: #FFFFFF;
-        --background: #121212;
+        --background: #1C1B22;
+        --unvisited: #00DDFF;
+        --visited: #e675fd;
     }
 }
 
@@ -34,13 +38,12 @@ html {
 
 body {
     margin: 0 auto 8rem auto;
-    max-width: 50rem;
+    max-width: 40rem;
     /* from https://css-tricks.com/snippets/css/system-font-stack/ */
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     /* The following is based on https://www.w3.org/TR/WCAG21/#text-spacing */
     line-height: 1.5rem;
     word-spacing: 0.16rem;
-    letter-spacing: 0.12rem;
 }
 
 h1 {
@@ -69,7 +72,7 @@ nav > ul > li {
 a {
     text-decoration: underline dotted;
     z-index: 1;
-    color: #3344dd;
+    color: var(--unvisited);
 }
 
 a:hover, a:focus {
@@ -77,11 +80,7 @@ a:hover, a:focus {
 }
 
 a:visited {
-    color: #8000ff;
-}
-
-a:active {
-    color: #b50010;
+    color: var(--visited);
 }
 
 .description {
