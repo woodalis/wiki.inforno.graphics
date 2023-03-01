@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Inknut Antiqua';
-    src: url('fonts/InknutAntiqua/Bold.woff2') format('woff2');
+    src: url('InknutAntiqua/Bold.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -8,41 +8,9 @@
 
 @font-face {
     font-family: 'Inknut Antiqua';
-    src: url('fonts/InknutAntiqua/Regular.woff2') format('woff2');
+    src: url('InknutAntiqua/Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'IBM Plex Sans';
-    src: url('fonts/IBMPlexSans/Bold.woff2') format('woff2');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'IBM Plex Sans';
-    src: url('fonts/IBMPlexSans/BoldItalic.woff2') format('woff2');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'IBM Plex Sans';
-    src: url('fonts/IBMPlexSans/Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'IBM Plex Sans';
-    src: url('fonts/IBMPlexSans/Italic.woff2') format('woff2');
-    font-weight: normal;
-    font-style: italic;
     font-display: swap;
 }
 
@@ -65,9 +33,10 @@ html {
 }
 
 body {
-    font-family: 'IBM Plex Sans', sans-serif;
     margin: 0 auto 8rem auto;
     max-width: 50rem;
+    /* from https://css-tricks.com/snippets/css/system-font-stack/ */
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     /* The following is based on https://www.w3.org/TR/WCAG21/#text-spacing */
     line-height: 1.5rem;
     word-spacing: 0.16rem;
