@@ -31,14 +31,14 @@
 }
 
 html {
-    margin: 0 2rem;
     background: var(--background);
     color: var(--foreground);
 }
 
 body {
-    margin: 0 auto 8rem auto;
-    max-width: 40rem;
+    margin: 0 auto;
+    padding: 2rem 2rem 8rem 2rem;
+    max-width: 35rem;
     /* from https://css-tricks.com/snippets/css/system-font-stack/ */
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     /* The following is based on https://www.w3.org/TR/WCAG21/#text-spacing */
@@ -62,7 +62,8 @@ nav > ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    padding-left: 0;
+    padding: 0;
+    margin: 0;
 }
 
 nav > ul > li {

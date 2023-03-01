@@ -1,6 +1,6 @@
 ---
-title: gsg
-description: grand strategy game concept notes
+title: grand strategy game
+description: design notes
 ---
 In computer [**grand strategy games**][gsg], players are often given information about the population of their state.
 For example, Victoria 2 gives the player [information on every "pop"][vicky2 pop tab],
