@@ -1,5 +1,17 @@
 ---
+import process from 'node:process'
+import path from 'node:path'
+import type { MarkdownLayoutProps } from 'astro'
+
+type Props = MarkdownLayoutProps<{
+    title: string;
+    description: string;
+    language?: string;
+}>;
+
 const { frontmatter } = Astro.props
+
+const pageSource = "https://github.com/woodalis/wiki.inforno.graphics/blob/main/" + path.relative(process.cwd(), frontmatter.file)
 ---
 <!DOCTYPE html>
 <html lang="en-GB">
@@ -17,7 +29,7 @@ const { frontmatter } = Astro.props
             <ul>
                 <li aria-hidden="true" id="icon">†</li>
                 <li><a href="/">index</a></li>
-                <li><a href="https://github.com/woodalis/wiki.inforno.graphics">source</a></li>
+                <li><a href={pageSource}>page source</a></li>
             </ul>
         </nav>
         <header>
