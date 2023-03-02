@@ -5,7 +5,7 @@ import path from 'node:path'
 const articles = (await Astro.glob("../pages/**"))
     .filter(page => path.relative(process.cwd(), page.file) != path.normalize("src/pages/404.md"))
 ---
-<h2>sitemap</h2>
+<h2>Sitemap</h2>
 <ul>
     {articles.map(article => <li><a href={article.url ? article.url : "/"}>{article.frontmatter.title}</a>
         {article.frontmatter.description && <span class="description">{article.frontmatter.description}</span>}</li>)}
