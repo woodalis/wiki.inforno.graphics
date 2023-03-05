@@ -42,5 +42,10 @@ const pageSource = "https://github.com/woodalis/wiki.inforno.graphics/blob/main/
                 <slot />
             </article>
         </main>
+        <script>
+import { texLinebreakDOM } from 'tex-linebreak2'
+
+texLinebreakDOM(document.querySelectorAll("p, li"));
+        </script>
     </body>
 </html>

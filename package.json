@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^0.17.2",
-    "astro": "^2.0.15"
+    "astro": "^2.0.15",
+    "tex-linebreak2": "^0.8.3"
   }
 }
