@@ -2,41 +2,71 @@
 title: Grand Strategy Game
 description: design notes
 ---
-## Other games
-In [**grand strategy games**][gsg], players control *states*,
-to build up their economy, wage war and dominate the world.
-These games often abstract away things like internal party opposition, the autonomy of businesses and other sources of "irrationality" so that the player can direct all the resources of their state and focus on grand strategy, on conflicts with other states.
-Being able to micromanage which economic policies are in use, what factories produce and where troops are deployed are all part of the fun of the genre.
+## Grand strategy
+In [**grand strategy games**][gsg], players take control of states.
+They grow their economy, start wars and try to dominate the world.
+[Grand strategy][gs] is deciding on state goals and policies to achieve them.
+These goals include military security and economic self-sufficiency.
 
 [gsg]: https://en.wikipedia.org/wiki/Grand_strategy_wargame
+[gs]: https://en.wikipedia.org/wiki/Grand_strategy
 
-Players often get detailed information about the people living in their state, who are a valuable resource to be managed.
-For example, the game [Victoria 2][vicky2] is focused on managing a state's economy from the Industrial Revolutions into the Great War.
-Making sure that factories get a steady supply of labour is vital to keeping the economy growing,
-so the game gives the player [information on every "pop"][vicky2 pop tab], where a "pop" represents a household.
-This includes up-to-date data on their political leanings, how likely they are to revolt and whether their resource needs are met.
-Using this information, the player can adjust taxes, give or take away rights and suppress revolutionaries to keep labour in check.
+Governments ignore grand strategy when their interests don't align with state interests.
+Businesses lobby governments to act in their interests, such as by deregulating industries.
+Politicians in government raise their own salaries and [give their friends grants][ppe scandal].
+Workers strike to force the government to enact safety laws and raise minimum wages.
 
-[vicky2]: https://store.steampowered.com/app/42960/Victoria_II/
-[vicky2 pop tab]: https://vic2.paradoxwikis.com/File:Population_tab.jpg
+[ppe scandal]: https://www.theguardian.com/politics/2022/sep/07/government-admits-50-firms-were-in-vip-lane-for-test-and-trace-contracts
 
-Governments in that time period did not have access to the depth of information given by these games.
-Censuses existed so population estimates weren't an issue;
-however, knowing the people's hopes, desires and identities wasn't possible back then.
-Mass surveillance makes this possible for today's states.
+Grand strategy games only model some of these sources of "irrationality".
+Part of the fun of these games is organising all the state's resources into a well-oiled machine.
+Players like enacting social policies and changing what goods factories make without obstacles.
+However, many players also like juggling different interest groups to stay in power.
+The challenge and chaos involved increases the more interests are modelled.
 
 ***
-## Historical context
-In 2013, Edward Snowden leaked various documents which confirmed the existence of global mass surveillance programs ran by the NSA and allied agencies across the world.
-This came as a shock to the general public, though the existence of these programs had long been suspected.
-Many of the new powers that were given to intelligence agencies came after the 9/11 attacks, in the name of counter-terrorism.
-However, it is important to remember that mass surveillance through less sophisticated means (e.g. ECHELON) has existed and much infrastructure long predates the "War on Terror".
+## Population legibility
+[Victoria 2][vicky2] is a gsg set from the Concert of Europe to the Great Wars. 
+Players industrialise and mobilise their states to prepare for the Great Wars.
+They manage resources like the goods their provinces produce or their working population.
 
-The collapse of the Soviet Union and the stagnation of Japan's economy has left America as the sole hegemon.
-Russia, despite Putin's efforts, is no longer anything more than a "regional power", as Obama said.[^1]
-Only recently has China risen to challenge America.
+[vicky2]: https://store.steampowered.com/app/42960/Victoria_II/
 
-[^1]: https://www.nbcnews.com/storyline/ukraine-crisis/obama-russia-regional-power-not-top-geopolitical-foe-n61601
+A working household in the game is represented as a "pop".
+A functional state needs a variety of pop types, like craftsmen or soldiers.
+For example, a state with many factories needs a large proportion of craftsmen and clerks.
+States focusing on exporting raw goods have most of their pops as farmers and labourers.
+States without factories will often have a sizeable population of artisans.
+Most states will support intelligentsia to speed up researching technology.
+
+Pops all have needs regardless of their job.
+They get unhappy and can revolt when they aren't fed or clothed and don't have rights.
+Pops promote to higher class jobs if they can afford to and demote or change jobs if they can't afford to live.
+For example, as factories become more efficient they will outcompete artisans.
+As artisans fall into poverty, they convert to craftsmen.
+Also, as mines and farms become more efficient, less farmers and labourers are needed and so are laid off.
+The unemployed fall into poverty and will accept jobs at factories.
+
+Players who want to change the proportions of their pop types have a variety of tools.
+As mentioned, researching technologies to automate away jobs will make pops unemployed.
+Players can encourage pops to try change job type on a regional level.
+Taxes can be increased or decreased to affect pops finances.
+Literate pops are more likely to promote to middle class jobs.
+
+To help players decide what policies to enact, the game gives the player [information on every pop][pop tab].
+This includes up-to-date information on how likely they are to revolt and if they are well fed.
+Players with angry populations may pass popular policies like minimum wages.
+Players who notice they have illiterate populations may pass public schooling.
+Players wanting to increase population growth pass free healthcare and work safety laws.
+
+[pop tab]: https://vic2.paradoxwikis.com/File:Population_tab.jpg
+
+Governments at the time did not have access to the depth of information given by these games.
+While states had census information, they couldn't tell what the people thought.
+Mass surveillance makes this possible for today’s states.
+The [sheer volume of information][stasi vs nsa] today's states can work with is impressive.
+
+[stasi vs nsa]: https://opendatacity.github.io/stasi-vs-nsa/english.html
 
 ***
 ## Further reading
