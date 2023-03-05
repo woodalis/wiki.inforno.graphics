@@ -7,3 +7,8 @@ description: for ease of use and access
 
 [wcag]: https://www.w3.org/WAI/standards-guidelines/wcag/
 [pe]: https://www.gov.uk/service-manual/technology/using-progressive-enhancement
+
+The [NHS][nhs] and [GOV.UK][gov] both have helpful resources.
+
+[nhs]: https://service-manual.nhs.uk/
+[gov]: https://design-system.service.gov.uk/
