@@ -24,7 +24,6 @@ Players like enacting social policies and changing what goods factories make wit
 However, many players also like juggling different interest groups to stay in power.
 The challenge and chaos involved increases the more interests are modelled.
 
-***
 ## Population legibility
 [Victoria 2][vicky2] is a gsg set from the Concert of Europe to the Great Wars. 
 Players industrialise and mobilise their states to prepare for the Great Wars.
@@ -68,7 +67,6 @@ The [sheer volume of information][stasi vs nsa] today's states can work with is 
 
 [stasi vs nsa]: https://opendatacity.github.io/stasi-vs-nsa/english.html
 
-***
 ## Further reading
  * [Seeing Like a State](https://en.wikipedia.org/wiki/Seeing_Like_a_State) gives examples of state legibility schemes which help empower the state to micromanage society, often for the worse.
  * [The Concept of the Political](https://en.wikipedia.org/wiki/The_Concept_of_the_Political) and other works by Carl Schmitt as well as those who were influenced by them.

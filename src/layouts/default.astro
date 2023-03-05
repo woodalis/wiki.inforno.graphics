@@ -38,7 +38,6 @@ const pageSource = "https://github.com/woodalis/wiki.inforno.graphics/blob/main/
             <article lang={frontmatter.language ? frontmatter.language : "en-GB"}>
                 <h1>{frontmatter.title}</h1>
                 {frontmatter.description && <p class="description">{frontmatter.description}</p>}
-                <hr />
                 <slot />
             </article>
         </main>

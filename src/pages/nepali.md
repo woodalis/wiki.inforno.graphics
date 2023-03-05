@@ -12,7 +12,6 @@ Some reasons why include:
 
 [limbu]: https://en.wikipedia.org/wiki/Limbu_language
 
-***
 ## Resources
 ### Courses
  * [Complete Nepali Beginner to Intermediate Course](https://www.amazon.co.uk/dp/1444101978)
